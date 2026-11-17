@@ -1,0 +1,46 @@
+GIB2A VS V26.1.2-BETA — PHASE 2 PUBLICATION PLAN
+
+PHASE 1 STATUS
+- Repository name: GIB2A-FrSky-ETHOS-VSpeak-Telemetry
+- Planned URL: https://github.com/GIB2A/GIB2A-FrSky-ETHOS-VSpeak-Telemetry
+- Branch: main
+- Tag: v26.1.2-BETA
+- Release type: Pre-release
+- Remote repository: not created during Phase 1
+- Commit, push, tag and Release: not performed during Phase 1
+
+PHASE 2 AUTHORIZATION
+Do not execute any remote operation until the user states exactly:
+JE VALIDE LA PUBLICATION
+
+PLANNED REPOSITORY SETTINGS
+- Owner: GIB2A
+- Visibility: public
+- Description: GIB2A VS — VSpeak Turbine Telemetry Dashboard for FrSky ETHOS radios. Advanced Lua telemetry widget with configurable gauges, ECU status monitoring and flight-oriented displays.
+- Topics: frsky, ethos, lua, telemetry, vspeak, turbine, rc-jet, gib2a, dashboard
+- Default branch: main
+- License: MIT
+
+PLANNED FIRST COMMIT
+Title: Prepare GIB2A VS V26.1.2-BETA release
+
+PLANNED RELEASE
+- Tag: v26.1.2-BETA
+- Title: GIB2A VS V26.1.2-BETA
+- Mark as Pre-release: yes
+- Notes: releases/V26.1.2-BETA/GITHUB_RELEASE_NOTES.md
+- Assets:
+  - GIB2A-VS-v26.1.2-BETA-ETHOS-Suite.zip
+  - GIB2A-VS-v26.1.2-BETA-SD.zip
+  - SHA256SUMS.txt
+
+PRE-PUBLICATION AUTHENTICATION GATE
+GitHub CLI authentication must be restored for account/organization GIB2A before Phase 2. Never print or store a token in this repository.
+
+POST-PUBLICATION CHECKS
+1. Confirm repository files and default branch.
+2. Confirm repository description, topics and MIT license.
+3. Confirm tag and Pre-release status.
+4. Confirm all three Release assets and their downloaded SHA-256 values.
+5. Confirm README image rendering.
+6. Confirm the direct link below the image downloads the ETHOS Suite ZIP.
